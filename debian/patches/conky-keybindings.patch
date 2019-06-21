@@ -5,7 +5,7 @@
  bindsym $mod+l layout toggle split
  
 +# show/hide keybindings
-+bindsym $mod+question exec /usr/bin/conky-toggle.sh
++bindsym $mod+question exec --no-startup-id /usr/bin/conky-toggle.sh
 +
  # toggle tiling / floating
  bindsym $mod+Shift+f floating toggle
